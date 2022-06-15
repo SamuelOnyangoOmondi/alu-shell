@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #displays Best School 10 times using while loop
-number=0
-until [[ $number -eq 10 ]]
+z=0
+while [[ $z -ne 10 ]]
 do
-  echo Best School
+    echo "Best School"
+    ((z++))
+done
