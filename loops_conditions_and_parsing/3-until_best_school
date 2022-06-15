@@ -1,0 +1,8 @@
+#!/usr/bin/env bash 3-until_best_school
+#Write a Bash script that displays Best School 10 times using until.
+COUNTER=10
+until [ $COUNTER -lt 1 ]
+do
+    echo "Best School"
+    let COUNTER-=1
+done
