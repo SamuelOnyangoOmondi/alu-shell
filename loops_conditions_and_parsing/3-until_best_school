@@ -1,9 +1,10 @@
 #!/usr/bin/env bash 3-until_best_school
 #Write a Bash script that displays Best School 10 times using until.
 
-number=0
-until [[ $number -eq 10 ]]
+y=1
+z=10
+until [ $z -lt $y ]
 do
-  echo "Best School"
-  ((number++))
+    echo 'Best School'
+    (( y++ ))
 done
